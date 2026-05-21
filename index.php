@@ -18,5 +18,9 @@
     <label for="nombre">Nombre</label>
     <input type="text" id="nombre" name="nombre" placeholder="<?php echo $mensaje; ?>">
     <?php echo "hola mundo"; ?>
+    <form action="index.php" method="post">
+        <input type="text" name="nombre" placeholder="Ingrese su nombre">
+        <input type="submit" value="Enviar">
+    </form>
 <body>
 </html>
